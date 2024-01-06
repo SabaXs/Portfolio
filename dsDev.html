@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Web Development Project</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navBar">
+        <div class="max-width">
+            <div class="logo">My <span> Personal</span> <span>Portfolio</span></a></div>
+            <ul class="menu">
+                <li><a href="main.html" class="menu-btn">Home</a></li>
+                <li><a href="main.html#about" class="menu-btn">About</a></li>
+                <li><a href="main.html#services" class="menu-btn">Projects</a></li>
+                <li><a href="main.html#skills" class="menu-btn">Skills</a></li>
+                <li><a href="main.html#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <div class="webIntro">
+        <p>Embark on my Data Science journey, project by project.</p>
+    </div>
+    <section class="webProject1" id="webProject1">
+        <div class="project-container">
+            <div class="project-img">
+              <img src="dv1.png" alt="Project 1 Image">
+            </div>
+            <div class="project-text">
+              <h2>Exploratory Data Analysis</h2><br>
+              <p>Commencing my journey into data science, the first task involved Exploratory Data Analysis (EDA). Understanding the provided data and uncovering relationships 
+                between features were the initial goals. I experimented with various statistical methods, employing different plotting libraries such as pandas, matplotlib, seaborn, 
+                and plotly to create informative graphs. This foundational step facilitated a comprehensive grasp of data intricacies, setting the stage for subsequent analytical pursuits.</p>
+            </div>
+          </div>
+          <section class="webProject2" id="webProject2">
+            <div class="project-container alternate">
+                <div class="project-text">
+                <h2>Train-Test-Split</h2><br>
+                <p>Delving further into data science, I ventured into supervised learning. Handling the provided data involved splitting it into training and testing sets. Subsequently, I applied predictive models to anticipate outcomes for unknown values. This hands-on experience in supervised learning not only honed my analytical skills but also underscored the significance of effective data partitioning and model evaluation in deriving accurate predictions.</p>
+                </div>
+                <div class="project-img">
+                <img src="dv2.png" alt="Project 2 Image">
+                </div>
+            </div>
+          </section>
+          <div class="project-container">
+            <div class="project-img">
+              <img src="dv3.png" alt="Project 3 Image">
+            </div>
+            <div class="project-text">
+              <h2>Classifiers</h2><br>
+              <p>Expanding my exploration, I delved into experimenting with various classifiers—Naive Bayes, Gaussian NB, Decision Tree, SVM—tailored to a specific dataset. This hands-on experience enhanced my comprehension of these classifiers, providing a nuanced understanding of their conceptual frameworks. The experimentation process not only fortified my grasp of machine learning techniques but also contributed to refining my ability to select and apply the most suitable model for different scenarios.</p>
+            </div>
+          </div>
+          <section class="webProject2" id="webProject2">
+            <div class="project-container alternate">
+                <div class="project-text">
+                <h2>Parkinson's Detection Using Random Forest Classifier</h2><br>
+                <p>I created a versatile model that utilizes various voice features as input and undergoes training with different classifiers. The primary objective is to analyze a consistent set of features and predict the diagnosis of a new voice. Assessing the model's performance, I calculated the AUC-ROC curve for each classifier, ultimately determining that Random Forest achieved the highest accuracy among them. This outcome underscores the effectiveness of Random Forest in accurately predicting voice diagnoses.</p>
+                </div>
+                <div class="project-img">
+                <img src="dv4.png" alt="Project 4 Image">
+                </div>
+            </div>
+          </section>
+          <div class="project-container">
+            <div class="project-img">
+              <img src="dv5.png" alt="Project 5 Image"> 
+            </div>
+            <div class="project-text">
+              <h2>Image Conversions</h2><br>
+              <p>Venturing into Deep Learning, my initial foray involved experimenting with fundamental image processing techniques. Utilizing the CV2 library, I explored operations like erosion, dilation, closing, and opening of images. Additionally, I delved into histogram equalization and the conversion of RGB images to grayscale. This foundational exploration laid the groundwork for a deeper understanding of image processing within the realm of Deep Learning, broadening my skill set in this dynamic field.</p>
+            </div>
+          </div>
+          <section class="webProject2" id="webProject2">
+            <div class="project-container alternate">
+                <div class="project-text">
+                <h2>Optimizers with CNN</h2><br>
+                <p>I delved into the intricacies of various optimizers, gaining insights into their functionalities through experimentation with basic Convolutional Neural Network (CNN) models. To enhance my understanding, I generated Netron files, scrutinizing details such as bias, kernel size, and weights. This hands-on exploration illuminated the nuances of optimizing neural networks, offering a comprehensive grasp of the inner workings of different optimizers in the context of deep learning models.</p>
+                </div>
+                <div class="project-img">
+                <img src="dv6.png" alt="Project 6 Image">
+                </div>
+            </div>
+          </section>
+          <div class="project-container">
+            <div class="project-img">
+              <img src="dv7.png" alt="Project 7 Image"> 
+            </div>
+            <div class="project-text">
+              <h2>Detection of Conversion from MCI to AD using Open CV and DeepLearning Techniques</h2><br>
+              <p>The project aims to develop a user-friendly computer vision and deep learning solution for analyzing and detecting the conversion of Mild Cognitive Impairment (MCI) to Alzheimer's Disease (AD). Leveraging neuroimaging data, particularly MRI scans, the system extracts features and identifies patterns that signify the progression from MCI to AD. The ultimate goal is to provide a reliable and accessible web interface for early detection and intervention in neurodegenerative conditions.</p>
+            </div>
+          </div>
+    </section>
+
+
+    <script src="script.js"></script> 
+</body>
+</html>
